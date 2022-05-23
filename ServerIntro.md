@@ -15,6 +15,25 @@
 ## 접속 방법
 - putty 프로그램 이용
   - putty 프로그램 설치 
-    - [다운로드 링크](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+    - [다운로드 링크](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
+    - msi, exe 두 방법 모두 가능
+  - ![puttystart](https://user-images.githubusercontent.com/90604899/169722194-239d76f4-ad5a-4003-9159-00a390cb40d7.png)
+  - host name : 접속하고 싶은 서버의 IP 주소
+    - 구서버 : 115.23.235.135
+    - 신서버 : 115.23.235.150
+  - 포트 : 서버에 어떤 포트로 접속할 것인지
+    - 구서버 : 443
+    - 신서버 : 22
+  - key 얘기가 나오면 Accept
+  - login as : gs학번 (아이디 치는 것)
+  - password : 자기 비밀번호 (계속 빈칸으로 뜨는 것이 정상)
+- cmd 
+  - 신서버 : ssh gs20000@115.23.235.150
+  - 구서버 : ssh -p 443 gs20000@115.23.235.135
+  - 비번은 동일
+- filezilla
+  - filezilla client 설치
+    - [다운로드 링크](https://filezilla-project.org/download.php?platform=win64)
+  - 왼쪽 위 파일 -> 사이트 관리자
   - 
     
