@@ -134,6 +134,12 @@ os.environ["CUDA_VISIBLE_DEVICES"]="사용할 GPU 숫자(0~9)"
     - 앞에다가 `CUDA_VISIBLE_DEVICES=GPU숫자`
     - nohup도 마찬가지다. (nohup 뒤에 붙이면 된다)
 ## C언어 사용 방법
-- vim 쓰자
+- vim 사용 good
 - `gcc [파일명] -o [컴파일 후 만들어진 파일명]`
 - `./[컴파일 후 만들어진 파일명]`
+## 서버 정보
+- 구서버 : Tesla k40c 6장
+- 신서버 : A6000 10장
+- 저장 공간은 충분
+- 속도보다는 메모리 good
+- 관리자 : 박종화 선생님, 송혁중
