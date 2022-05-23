@@ -131,11 +131,9 @@ os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"]="사용할 GPU 숫자(0~9)"
 ```
   - python 실행할때 추가
-    - `앞에다가 CUDA_VISIBLE_DEVICES=GPU 숫자`
-    - nohup도 마찬가지다.
+    - 앞에다가 `CUDA_VISIBLE_DEVICES=GPU숫자`
+    - nohup도 마찬가지다. (nohup 뒤에 붙이면 된다)
 ## C언어 사용 방법
-- 부기장이 채울 예정
-## java 사용 방법
-- 부기장이 채울 예정
-## DB 사용 방법
-- 추후에 설명 예쩡
+- vim 쓰자
+- `gcc [파일명] -o [컴파일 후 만들어진 파일명]`
+- `./[컴파일 후 만들어진 파일명]`
